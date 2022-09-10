@@ -6,8 +6,8 @@
 
 
 
-//int a = 5;
-//int b = 7;
+int a = 5;
+int b = 7;
 
 //int a = 2;
 //int b = 10;
