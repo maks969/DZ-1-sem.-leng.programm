@@ -2,24 +2,28 @@
 // 5-7.2-10.-9--3.
 
 
-// !!!РАСКОМЕНТИРОВАТЬ НУЖНЫЕ ЗНАЧЕНИЯ ПЕРЕМЕННОЙ!!!
 
 
+    Console.WriteLine($"введите первое число-");
+  string input1 = Console.ReadLine();
+int a = int.Parse(input1);
 
-int a = 5;
-int b = 7;
-
-//int a = 2;
-//int b = 10;
-
-//int a = -9;
-//int b = -3;
+    Console.WriteLine($"введите второе число-");
+  string input2 = Console.ReadLine();
+int b = int.Parse(input2);
 
 int max = a;
+int min = b;
+if (min == max)
+{
+ Console.WriteLine("числа равны!");
+ return;
+}
+  if (b>max)
+  {
+     max = b;
+     min = a;
+  }
 
-if (a>max) max = a;
-if (b>max) max = b;
-
-Console.Write("max = ");
-Console.WriteLine(max);
-
+Console.Write($"max ={max}");
+Console.Write($"min ={min}");
