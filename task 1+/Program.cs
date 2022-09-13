@@ -1,9 +1,12 @@
-﻿// только положительные числа !!!
+﻿// программа на вход два числа, выводит большее и меньшее.
+// 5-7.2-10
+
+
 Console.WriteLine($"введите первое число-");
-            string input1 = Console.ReadLine();
+            string input1 = Console.ReadLine()!;
         
 Console.WriteLine($"введите второе число-");
-            string input2 = Console.ReadLine();
+            string input2 = Console.ReadLine()!;
           
   Int64 a = int.Parse(input1);
   Int64 b = int.Parse(input2);
