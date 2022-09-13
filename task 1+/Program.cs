@@ -11,10 +11,6 @@ Console.WriteLine($"введите второе число-");
   Int64 a = int.Parse(input1);
   Int64 b = int.Parse(input2);
 
-  if (a == b)
-  {
-   Console.WriteLine("числа равны!"); 
-   return;
-  }
+  if (a == b) Console.WriteLine("числа равны!"); 
 Console.WriteLine($"min = {Math.Min(a, b)}");
 Console.WriteLine($"max = {Math.Max(a, b)}");
