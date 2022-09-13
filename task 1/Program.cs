@@ -1,15 +1,19 @@
 ﻿// программа на вход два числа, выводит большее и меньшее.
 // 5-7.2-10
-        
+  //void Ent(int a, int b)
+  //{      
 Console.WriteLine($"введите первое число-");
             string input1 = Console.ReadLine();
-        
+        int a = int.Parse(input1);
 Console.WriteLine($"введите второе число-");
             string input2 = Console.ReadLine();
-          
-  int a = int.Parse(input1);
-  int b = int.Parse(input2);
-    
+            int b = int.Parse(input2);
+ //}
+  //Ent(a,b);  
+  //int a = int.Parse(input1);
+  //int b = int.Parse(input2);
+  //}
+  //Ent(a,b);  
         int max = a;
         int min = b;
         if (min == max)
